@@ -1,0 +1,61 @@
+body{
+
+    width: 800px;
+    margin: auto;
+    background-color: rgb(123, 95, 150);
+
+}
+
+header{
+
+    text-align: center;
+    
+
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid;
+    color: black;
+}
+
+a:hover{
+
+    background-color: cornsilk;
+    color: crimson;
+}
+
+.kLogo{
+
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+p{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(155, 85, 85);
+    border: 2px solid rgb(50, 69,24);
+}
+
+footer{
+
+text-align: center;
+text-transform: uppercase;
+}
+
+footer ul li {
+
+    display :block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    
+    
+}
