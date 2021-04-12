@@ -8,11 +8,11 @@ function quesOne(){
     let ginder =prompt('Am I a male?');
     if (ginder.toLocaleLowerCase() === 'yes'|| ginder.toLocaleLowerCase() ==='y'){
 
-        console.log('The fisrt answer:correct');
+        // console.log('The fisrt answer:correct');
         alert('correct');
     }else if (ginder.toLocaleLowerCase() === 'no'|| ginder.toLocaleLowerCase() ==='n') {
 
-        console.log('The first answer:wrong');
+        // console.log('The first answer:wrong');
         alert('wrong');
 
 
@@ -29,11 +29,11 @@ function quesOne(){
 
         if (age.toLocaleLowerCase() === 'yes'|| age.toLocaleLowerCase() ==='y'){
 
-            console.log('The second answer:correct');
+            // console.log('The second answer:correct');
             alert('correct');
         }else if (age.toLocaleLowerCase() === 'no'|| age.toLocaleLowerCase() ==='n') {
     
-            console.log('The second answer:wrong');
+            // console.log('The second answer:wrong');
             alert('wrong');
         }
     }
@@ -46,11 +46,11 @@ function quesOne(){
 
         if (club.toLocaleLowerCase() === 'yes'|| club.toLocaleLowerCase() ==='y'){
 
-            console.log('The third answer:wrong');
+            // console.log('The third answer:wrong');
             alert('wrong');
         }else if (club.toLocaleLowerCase() === 'no'|| club.toLocaleLowerCase() ==='n') {
     
-            console.log('The third answer:correct');
+            // console.log('The third answer:correct');
             alert('correct , I am a real madrid fan');
         }
     }
@@ -62,11 +62,11 @@ function quesOne(){
 
         if (developer.toLocaleLowerCase() === 'yes'|| developer.toLocaleLowerCase() ==='y'){
 
-            console.log('The fourth answer:correct');
+            // console.log('The fourth answer:correct');
             alert('correct , I beleive to be great developer');
         }else if (developer.toLocaleLowerCase() === 'no'|| developer.toLocaleLowerCase() ==='n') {
     
-            console.log('The fourth answer:wrong');
+            // console.log('The fourth answer:wrong');
             alert('wrong ,I beleive to be great developer ');
         }
     }
@@ -78,11 +78,11 @@ function quesOne(){
 
         if (sport.toLocaleLowerCase() === 'yes'|| sport.toLocaleLowerCase() ==='y'){
 
-            console.log('The fifth answer:correct');
+            // console.log('The fifth answer:correct');
             alert('correct');
         }else if (sport.toLocaleLowerCase() === 'no'|| sport.toLocaleLowerCase() ==='n') {
     
-            console.log('The fifth answer:wrong');
+            // console.log('The fifth answer:wrong');
             alert('wrong');
         }
     }
