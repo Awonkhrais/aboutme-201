@@ -4,7 +4,7 @@ let userName = prompt('what\'s your name?');
 alert('Helloo '+userName+' nice to meet you');
 alert('I will make for you a qucik quiz (answer with :yes or no) ')
 
-function quesOne(){
+function checkGinder(){
 
     let ginder =prompt('Am I a male?');
     if (ginder.toLocaleLowerCase() === 'yes'|| ginder.toLocaleLowerCase() ==='y'){
@@ -23,10 +23,10 @@ function quesOne(){
 
 
     }
-    quesOne();
+    checkGinder();
 
 
-    function quesTwo(){
+    function checkAge(){
         let age =prompt('Am I in the twenties?');
 
         if (age.toLocaleLowerCase() === 'yes'|| age.toLocaleLowerCase() ==='y'){
@@ -40,10 +40,10 @@ function quesOne(){
             alert('wrong');
         }
     }
-    quesTwo();
+    checkAge();
 
 
-    function quesThree(){
+    function checkClub(){
 
         let club =prompt('My favorit club is Fc Barcelona ?');
 
@@ -58,9 +58,9 @@ function quesOne(){
             sum++;
         }
     }
-    quesThree();
+    checkClub();
 
-    function quesFour(){
+    function checkFuture(){
 
         let developer =prompt('Do you think I will be a great developer?');
 
@@ -75,9 +75,9 @@ function quesOne(){
             alert('wrong ,I beleive to be great developer ');
         }
     }
-    quesFour();
+    checkFuture();
 
-    function quesFive(){
+    function checkHopies(){
 
         let sport =prompt('Do you think I go to gym in my free time?');
 
@@ -92,10 +92,10 @@ function quesOne(){
             alert('wrong');
         }
     }
-    quesFive();
+    checkHopies();
 
 
-    function quesSix(){
+    function checkSport(){
 
         
 
@@ -133,12 +133,12 @@ function quesOne(){
 
 
     }
-    quesSix();
+    checkSport();
 
 
 
 
-        function quesSeven(){
+        function checkPlayer(){
     
             let ballondorArray = ['ronaldo','messi','cristiano','kaka','zidane','modric'];
             let theBest = ''
@@ -162,7 +162,7 @@ function quesOne(){
             
             }
         }
-        quesSeven();
+        checkPlayer();
 
 
 
