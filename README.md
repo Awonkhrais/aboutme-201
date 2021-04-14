@@ -13,4 +13,5 @@ So, all you have is to answer the questions in the pop-up and let's see how much
 3. add more two question to increase the challenge.
 4. The user will give a score after he finsh the quiz.
 
-
+* Navigatur for this project is Awon khrais
+* Driver for this project is Dina albarghouthi
