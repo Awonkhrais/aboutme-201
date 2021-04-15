@@ -31,6 +31,7 @@ a:hover{
     display: block;
     width: 150px;
     border-radius: 50%;
+    
 }
 
 
@@ -39,6 +40,13 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:rgb(155, 85, 85);
     border: 2px solid rgb(50, 69,24);
+}
+
+p:nth-child(2){
+position: relative;
+left: 40px;
+
+
 }
 
 footer{
